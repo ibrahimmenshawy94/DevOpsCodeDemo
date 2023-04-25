@@ -46,7 +46,9 @@ pipeline{
           }
 	     
           
-      post {
+      
+      }
+	post {
         always {
             // Archive artifacts or perform other cleanup tasks
             archiveArtifacts 'target/*.war'
