@@ -49,7 +49,7 @@ pipeline{
       post {
         always {
             // Archive artifacts or perform other cleanup tasks
-            archiveArtifacts 'target/*.jar'
+            archiveArtifacts 'target/*.war'
         }
         success {
             // Notify relevant stakeholders of successful build and test results
